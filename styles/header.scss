@@ -1,0 +1,230 @@
+@import '_variables';
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $mainFont;
+
+  .container-scroll {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+    top: 100%;
+    opacity: 0.7;
+   }
+
+   h3 {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    outline: none;
+    // font-style: italic;
+    font-size: 1.0vw;
+    font-weight: bold;
+    border-radius: 50px;
+    color: $darkBlue;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 225px;
+    align-items: center;
+    background: $lightBackgroundColor;
+    padding: 15px;
+    i {
+      font-size: 1.5vw;
+    }
+   }
+
+   .chevron {
+     display: flex;
+     align-self: flex-end;
+     margin-bottom: 200px;
+     position: absolute;
+     width: $base * 3.5;
+     height: $base * 0.8;
+     opacity: 0;
+     transform: scale(0.3);
+     animation: move-chevron 3s ease-out infinite;
+     width: 5vw;
+
+   }
+
+   .chevron:first-child {
+     animation: move-chevron 3s ease-out 1s infinite;
+   }
+
+   .chevron:nth-child(2) {
+     animation: move-chevron 3s ease-out 2s infinite;
+   }
+
+   .chevron:before,
+   .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: $skyBlue;
+   }
+
+   .chevron:before {
+    left: 0;
+    transform: skewY(30deg);
+   }
+
+   .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
+   }
+
+   @keyframes move-chevron {
+    25% {
+     opacity: 1;
+     }
+    33.3% {
+     opacity: 1;
+     transform: translateY($base * 3.8);
+    }
+    66.6% {
+     opacity: 1;
+     transform: translateY($base * 5.2);
+    }
+    100% {
+     opacity: 0;
+     transform: translateY($base * 8) scale(0.5);
+    }
+   }
+
+
+  .jumbotron {
+    // background-image: url("../images/oceanic.webp");
+    width: 100%;
+    height: 50vw;
+    background-size: 100%;
+    object-fit: fill;
+    background-size: cover;
+
+
+    /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+  }
+}
+
+.toggle-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 800px;
+  transition: opacity 1s ease-in-out;
+}
+
+    // object-fit: cover;
+    // object-position: center;
+
+
+/* Styles for the specific images. */
+.first-image {
+ background-image: url('../images/bowl_of_fancy_sauce.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: -4;
+ opacity: 0;
+ width: 100%;
+    height: 50vw;
+    background-size: 100%;
+    object-fit: fill;
+}
+
+.second-image {
+ background-image: url('../images/bowl_of_shrimp.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: -3;
+ opacity: 0;
+ width: 100%;
+    height: 50vw;
+    background-size: 100%;
+    object-fit: fill;
+}
+
+.third-image {
+ background-image: url('../images/platter.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: -2;
+ opacity: 0;
+ width: 100%;
+    height: 50vw;
+    background-size: 100%;
+    object-fit: fill;
+}
+
+.fourth-image {
+  background-image: url('../images/salmon_steak.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0;
+  width: 100%;
+     height: 50vw;
+     background-size: 100%;
+     object-fit: fill;
+ }
+
+
+.first-image.show {
+ opacity: 1;
+}
+
+.second-image.show {
+ opacity: 1;
+}
+
+.third-image.show {
+ opacity: 1;
+}
+
+.fourth-image.show {
+  opacity: 1;
+ }
+
+
+
+//first breakpoint
+
+@media (max-width: 1900px) {
+  header {
+    .container-scroll {
+      margin-top: 3%;
+    }
+  }
+}
+
+
+
+
+
+  // ['../images/bowl.webp', '../images/green_far_away.webp','../images/bowl_of_shrimp.webp','../images/platter.webp','../images/salmon_steak.webp', '../images/oceanic.webp']
+
+  // @keyframes backgroundColorPalette {
+  //   0% {
+  //     background-image: url('../images/bowl.webp');
+  //   }
+  //   25% {
+  //     background-image: url('../images/green_far_away.webp');
+  //   }
+  //   50% {
+  //     background-image: url('../images/bowl_of_shrimp.webp');
+  //   }
+  //   75% {
+  //     background-image: url('../images/platter.webp');
+  //   }
+  //   100% {
+  //     background-image: url('../images/salmon_steak.webp');
+  //   }
+  // }
+

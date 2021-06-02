@@ -1,0 +1,50 @@
+@import '_variables';
+
+.accordian {
+
+    width: 20%;
+    // max-height: 500px;
+    background-color: $lightBackgroundColor;
+    border-radius: 10px;
+    margin: 1rem;
+    font-family: $mainFont;
+    padding: 10px;
+    color: #979c9d;
+
+
+    :hover {
+      color: #006192;
+      i {
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-animation: swinging 2s ease-in-out forwards infinite;
+        animation: swinging 2s ease-in-out forwards infinite;
+      }
+
+    }
+        h2 {
+      padding-left: 15px;
+      font-size: 1.5vw;
+      i {
+        font-size: 1.2vw;
+      }
+      :hover {
+        padding-left: 20px;
+      }
+    }
+
+
+ }
+
+ @keyframes swinging{
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(10deg);}
+  75%{transform: rotate(-10deg);}
+  100%{transform: rotate(0deg);}
+}
+
+@media (max-width: 1750px) {
+  .accordian {
+    display: none;
+  }
+}

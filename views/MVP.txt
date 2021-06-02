@@ -1,0 +1,173 @@
+------------Minimum Viable Product------------
+1. The ability to add things to a cart.
+2. Can order multiple items
+3. The ability to go to checkout.
+4. The ability to send finalized order to restaurant.
+5. Order recieved by resaurant by text and in app
+6. Respond by text and in app notification with ETA. (stretch)
+7.
+
+
+#002E45
+
+List of food items
+
+*appetizers
+--spinach * artichoke dip $14.75
+   creamy spinach, artichoke hearts combined with a mixture of cheeses topped with pico de gallo accompanied with tortilla chips for dipping
+
+--mediterraniean flatbread $15.50
+   vine ripened tomatoes, caramelized onions, olives & artichokes, with hummus and topped with crumbled feta, drizzled with a sweet balsamic glaze
+
+--fresh mussels $19.75
+   steamed with white wine, fresh herbs & grape tomatoes, accompanied by oven toasted bread
+
+--crispy calamary $16.50
+  line caught squid, accompanied with house made tzatziki
+
+--chicken wings $14.75
+   1lb of wings, choose from: hot or salt & pepper served with celery and blue cheese dip
+
+-- prawn ceviche $14.75
+   Fresh succulent prawns marinaded with fresh lime & chillies served on tostada’s with fresh cilantro & Pico de Gallo
+
+--catch sliders $16.75
+   Choice of 3: southern fried chicken, blackened salmon, traditional burger, pulled pork each served on a toasted brioche bun
+
+--crab cakes $15.25
+   succulent crabmeat combined with peppers, green onion, pan seared until golden topped with spicy avocado and served with a smoky chipotle aioli dip
+
+--edamame $11
+  lightly glazed with soy sauce & fresh chillies
+
+--garlic truffle yam fries $11.75
+  Yam fries tossed with fresh garlic & truffle oil
+
+--tequila & lime prawns $15.50
+  succulent prawns pan seared with tequila fresh lime & spicy chipotle topped with fresh cilantro served in a tortilla shell with pico de gallo
+
+
+
+*mains
+-- Nally's Catch of the Day $55
+  straight from Nally's boat in the Pacific Ocean around Galiano Island to your plate. If you see him, ask him about his knots.
+
+-- West Coast Salmon $29
+  your choice of garlic caper or citrus herb crusted wild sockeye salmon, served with rice and seasonal vegetables
+
+-- Potato Crusted Halibut $34.75
+  ocean wise halibut pan seared in a potato crust & served with rice, seasonal vegetables
+
+-- Off the Hook $29.75
+  fresh seafood feature, please ask your server
+
+-- Alaskan King Crab Legs $46
+  1 lb of steamed king crab legs served with rice, seasonal vegetables and hot butters
+
+-- Lobster Tail Dinner $46
+  2 succulent lobster tails, served with rice, seasonal vegetables and hot butter
+
+-- Leek & Bacon Chicken $26.75
+  French cut chicken breast, pan roasted topped with a creamy leek & bacon sauce served with garlic mashed potatoes & seasonal vegetables
+
+-- Herb Crusted Pork Chop $28.75
+  catch signature 12oz center cut pork chop, served with warm potato salad and seasonal vegetable
+
+-- New York Steak $33
+  8oz center cut strip loin flame grilled to your liking, served with a warm potato salad & seasonal vegetables.
+
+-- Rack of Lamb $39.75
+  Roasted rack of lamb in a red wine rosemary reduction served with garlic mashed potatoes & seasonal vegetables
+
+
+
+*desserts
+-- Catch Lava Cake $8.75
+  chocolate cake with molten chocolate center, served with vanilla ice cream & a wild berry coulis
+
+-- STICKY TOFFEE PUDDING $9.50
+  Served warm with a scoup of home made bourbon ice cream and topped with toffee with cruch pieces
+
+-- WILD BERRY CHEESECAKE $8.75
+  A light citrus cheesecake with a graham cracker crust, drizzled with a wild berry coulis & topped with a dark Belgian chocolate swirl
+
+-- APPLE CINNAMON SKILLET COOKIE $10
+  Hot cookie topped with caramelized apple slices a scoop of vanilla ice cream & sprinkled with shortbread crumble
+
+
+
+*drinks
+**white
+--50 Peaks White $30
+  British Columbia
+--Monkey Bay, Sauvignon blanc $34
+  New Zealand
+--Sandhill, Pinot Gris $36
+  British Columbia
+--Kung Fu Girl, Riesling $48
+  United States
+**red
+--50 Peaks red $30
+  British Columbia
+--Red Rooster, Merlot $34
+  British Columbia
+--Rosemount, Shiraz $38
+  Australia
+--Circus, Malbec $36
+  Argentina
+--Geringer Brothers, Pinot Noir $40
+  British Columbia
+**
+--Catch Lager $6
+  On Tap
+--Red Truck Ale $6.25
+  On Tap
+--Fuggles @ Warlock Destiny IPA $6.75
+  On Tap
+--Kokanee $6.25
+  Domestic Bottle
+--Budweiser $6.25
+  Domestic Bottle
+--Coors light $6.24
+  Domestic Bottle
+--Coors Banquet $6.25
+  Domestic Bottle
+--Kronenbourg blanc $7.00
+  Imported Bottle
+--Corona $7.00
+  Imported Bottle
+--Stella Artois $7.00
+  Imported Bottle
+--Fat Tug IPA $11
+  Imported Bottl
+**
+--Catch Caesar $8.00
+  vodka, tobasco, worcestershire, horseradish clamato & pepperoni stick
+--French 75 $8.00
+  gin, segura viudas, lemon juice
+--Moscow Mule $8.00
+  fentimins ginger beer, vodka, lime juice
+--Mojito $8.00
+  regular or passionfruit, lemon rum, lime, mint, soda
+--Pick Me Up $8.00
+  baileys, kahlua, crème de cacao, milk, coffee
+--Dark 'n' Stormy $8.00
+  fentimins ginger beer, kraken spiced rum, lime
+--Old Fashioned $8.00
+  bourbon, angosturas bitters, sugar, orange zest
+--Negroni $10.25
+  bombay sapphire gin, campari, sweet vermouth, orange zest
+
+--Catch Sours $10.25
+  choose your liquor: amaretto or bourbon or pisco. (with fresh lemon, lime juice & egg whites)
+
+--ElderFlower Gimlet $10.25
+  gin, mint, elderflower, lime juice, egg whites
+
+--Larry Tate's Dirty Martini!!! $48.00
+    Gin(3oz), Dry Vermouth, Olive Brine. Take a trip on the wild side and dive into one of Larry Tates famous Dirty Martini's!
+
+
+
+
+

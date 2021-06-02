@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+    <link rel="stylesheet" href="/vendor/border-box.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css">
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css">
+    <link rel="stylesheet" href="/styles/accordian.css" type="text/css">
+    <link rel="stylesheet" href="/styles/checkout.css" type="text/css">
+    <link rel="stylesheet" href="/styles/menu_items.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/orders.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/checkoutTime.css" type="text/css">
+
+    <script type="text/javascript" src="/vendor/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/owner.js"></script>
+    <script type="text/javascript" src="/scripts/headerImage.js"></script>
+
+    <!-- sidebar floating functionality -->
+    <script type="text/javascript" src="/scripts/sidebar.js"></script>
+
+    <!-- scroll down with button functionality as well as scroll to sidebar food categories -->
+    <script src="/scripts/scroll.js" type="text/javascript"></script>
+
+    <!-- Montserrat Font style-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome ICONS-->
+    <script src="https://kit.fontawesome.com/39d9cd885c.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+  <nav class="nav-bar">
+    <div class='logo'>
+      <img src="/images/logo.png">
+    </div>
+    <div class = 'search'>
+      <input type="text" class='search' placeholder="Search for your dish...">
+      <i type='submit' class="fas fa-search"></i>
+    </div>
+      <form class='login'>
+        <input type="text" name="userId" id="userIdInput" placeholder="User ID">
+        <button class="login" type='submit'>Login</button>
+      </form>
+  </nav>
+
+    <header>
+    <div class="jumbotron">
+     <div class="background-image toggle-image first-image show"></div>
+          <div class="background-image toggle-image second-image"></div>
+          <div class="background-image toggle-image third-image"></div>
+          <div class="background-image toggle-image fourth-image"></div>
+
+
+      <!--['../images/bowl.webp', '../images/green_far_away.webp','../images/bowl_of_shrimp.webp','../images/platter.webp','../images/salmon_steak.webp', '../images/oceanic.webp'] -->
+
+    <div class="container-scroll" type="submit">
+      <h3 id="scrollDown" >&nbsp&nbspEat &nbsp<i class="fas fa-fish"></i>&nbsp Food!</h3>
+
+
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+      <div class="chevron"></div>
+    </div>
+  </div>
+  </header>
+
+  <main class='container notOwner'>
+
+    <div class='accordian'>
+      <h2 id="app"><i class="fas fa-anchor"></i>&nbspAppetizers</h2>
+      <h2 id="main"><i class="fas fa-anchor"></i>&nbspMains</h2>
+      <h2 id="desserts"><i class="fas fa-anchor"></i>&nbspDesserts</h2>
+      <h2 id="drinks"><i class="fas fa-anchor"></i>&nbspDrinks</h2>
+      <h3 id="white"><i class="fas fa-wine-bottle"></i>&nbspWhite Wine</h3>
+      <h3 id="red"><i class="fas fa-wine-bottle"></i>&nbspRed Wine</h3>
+      <h3 id="beer"><i class="fas fa-beer"></i>&nbspBeer</h3>
+      <h3 id="cocktails"><i class="fas fa-cocktail"></i>&nbspCocktails</h3>
+    </div>
+
+
+    <!-- menu element for us to latch onto with jQuery and fill with data from the DB -->
+    <div class='menu'>
+    </div>
+
+    <div class='checkout'>
+      <h3 id="checkoutAppendage">Checkout:</h3>
+      <h3 id="checkoutSum">Subtotal: $0.00</h3>
+      <form id="checkout">
+        <button form="checkout" type="submit" id="checkoutButton" ><i class="fas fa-shopping-cart"></i>&nbspCheckout</button>
+      </form>
+      <div class="userError">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span>&nbspYou must be logged in.</span>
+      </div>
+
+    </div>
+  </main>
+
+
+
+<!-- this main replaces the menu and is only rendered at checkout -->
+  <main class="checkoutTime">
+
+    <div id="checkoutTime">
+    </div>
+  </main>
+
+
+<!-- this main replaces the menu when the owner is logged in -->
+  <main class="isOwner">
+    <div id="orders">
+    </div>
+  </main>
+
+  </body>
+</html>
+
+<!--
+-browse menu.js, users.js GET
+-read order.js GET
+-edit users.js PUT, menu.js PUT
+-add order.js menu.js POST
+-delete order.js menu.js DELETE -->

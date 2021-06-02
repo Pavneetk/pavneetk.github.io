@@ -1,0 +1,66 @@
+@import '_variables';
+
+div#orders {
+  display: none;
+  width: 80%;
+  padding: 2%;
+  margin: 250px auto 0 auto;
+}
+
+section.orders {
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $mainFont;
+  color: $darkBlue;
+  border: 3px solid $backgroundColor;
+  border-radius: 10px;
+  background-color: $lightBackgroundColor;
+  width: 100%;
+
+
+  // .menu-item-name {
+  //   // display: flex;
+  //   // justify-content: flex-start;
+  // }
+
+  // .menu-item-description {
+  //   // display: flex;
+  //   // justify-content: flex-start;
+  // }
+
+  .ordersDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+  }
+
+  // .orderForm {
+  //   display: flex;
+  //   flex-direction: column;
+  //   padding: 0 3% 3% 10%;
+  // }
+  .orderDetails {
+    // margin-right: 30px;
+  }
+  .control {
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    button, input {
+      width: 80%;
+    }
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+}
+
+section.orders:hover {
+  background-color: $lightSkyBlue;
+}
